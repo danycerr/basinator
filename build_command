@@ -1,0 +1,1 @@
+cmake -DCGAL_DIR=/home/daniele/software/cgal/CGAL-4.12-beta1/ -GNinja ../

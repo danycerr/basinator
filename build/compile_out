@@ -1,0 +1,36 @@
+-- Using header-only CGAL
+-- Targetting Unix Makefiles
+-- Using /u/sw/pkgs/toolchains/gcc-glibc/4.8/prefix/bin/c++ compiler.
+-- __cplusplus is 199711
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Boost include dirs: /u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/include
+-- Boost libraries:    /u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/lib/libboost_thread.so;/u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/lib/libboost_system.so;/u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/lib/libboost_chrono.so;/u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/lib/libboost_date_time.so;/u/sw/pkgs/toolchains/gcc-glibc/4.8/pkgs/boost/1.60.0/lib/libboost_atomic.so
+-- Using gcc version 4 or later. Adding -frounding-math
+-- Build type: Release
+-- USING CXXFLAGS = ' -O3 -DNDEBUG'
+-- USING EXEFLAGS = ' '
+-- Code taken from Git branch: n/a
+-- Requested component: MPFR
+-- Requested component: GMPXX
+-- Requested component: GMP
+-- Boost version: 1.60.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /u/archive/agip/cerroni/software/cgal/basinator/build
+Scanning dependencies of target generator
+[ 11%] Building CXX object CMakeFiles/generator.dir/domain.cpp.o
+[ 22%] Building CXX object CMakeFiles/generator.dir/basin_generator.cpp.o
+[ 33%] Building CXX object CMakeFiles/generator.dir/patcher.cpp.o
+[ 44%] Building CXX object CMakeFiles/generator.dir/sharpner.cpp.o
+[ 55%] Building CXX object CMakeFiles/generator.dir/exporter.cpp.o
+[ 66%] Building CXX object CMakeFiles/generator.dir/geometry.cpp.o
+[ 77%] Building CXX object CMakeFiles/generator.dir/reconstructurer.cpp.o
+[ 88%] Building CXX object CMakeFiles/generator.dir/main.cpp.o
+[100%] Linking CXX executable generator
+[100%] Built target generator
